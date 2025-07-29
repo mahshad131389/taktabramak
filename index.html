@@ -1,0 +1,296 @@
+<!DOCTYPE html>
+<html lang="fa" dir="rtl">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>رامک </title>
+    <link rel="stylesheet" href="./assets/css/output.css">
+    <link rel="shortcut icon" href="./assets/images/logo.png" type="image/x-icon">
+    <style>
+        @layer base {
+  .no-spinner {
+    -moz-appearance: textfield;
+  }
+  .no-spinner::-webkit-outer-spin-button,
+  .no-spinner::-webkit-inner-spin-button {
+    margin: 0;
+    -webkit-appearance: none;
+  }
+}
+    </style>
+</head>
+<body class="w-screen h-auto font-IRANSans" >
+    <div class="w-full h-full flex justify-center items-center "  >
+        <!-- pattern-diagonal-lines pattern-purple-500 pattern-bg-purple-600 
+        pattern-size-10 pattern-opacity-100 -->
+        <div class="w-full h-auto rounded-lg" >
+            <div class="game w-full  h-full  overflow-hidden ">
+               <!-- =========PAGE  1| START========== -->
+               <div class=" w-full h-full mx-auto 3xl:w-full bg-[#A68153]" id="sen3">
+                   <div class="w-full">
+                     <!-- header -->
+                    <div class="w-full md:hidden h-96 bg-no-repeat bg-contain" style="background-image: url(./assets/images/head_m_b.png)">
+                        <div class="relative flex w-full justify-start ">
+                            <img  class="w-2/3 m-12" src="./assets/images/text2.svg"  alt="">
+                            <img class="absolute w-20 left-5 top-4 "  src="./assets/images/logo.png" alt="">
+                        </div>
+                    </div>
+                    <div class="hidden md:block w-full h-auto " >
+                        <img class="w-full md:h-20 3xl:h-32 xl:h-40 " src="./assets/images/head_d_b.svg" alt="">
+                        <div class="relative flex w-full justify-start ">
+                            <img  class="md:w-96 my-12 mr-20 " src="./assets/images/text2.svg"  alt="">
+                            <img class="absolute md:w-[10vw] md:left-24 top-10 "  src="./assets/images/logo.png" alt="">
+                        </div>
+                    </div>
+
+                    <!-- midbox -->
+                     <div class="w-full p-4 mt-0 md:-mt-10 3xl:mt-16 ">
+                        <div class="bg-[#562A0F] rounded-md text-white md:bg-transparent md:flex justify-around">
+                            <div class="text-center md:text-start w-full p-4 3xl:mr-20 md:w-1/2">
+                                <h1 class="font-AnjomanMax_SemiBold md:text-xl 3xl:text-2xl xlg:text-3xl">به بازی ما خوش اومدی 
+                              
+                                </h1>
+                                <p class="mt-4 md:text-lg 3xl:text-xl xlg:text-2xl 3xl:pl-20">رامک دوتا محصول شکلاتی خوشمزه رو به محصولات خودش اضافه کرده و قراره در 
+                                    یک رقابت جذاب و تنگاتنگ به بهترین نینجاهایی که بتونن بیشترین پاکت شکلات تلخ شیر شکلات فندق درست کنن جاییزه بده
+                                </p>
+                            </div>
+                            <div class="3xl:-mt-10 w-full flex justify-center items-center 3xl:pl-20 pb-4 md:w-1/2">
+                                <img class="w-11/12 3xl:w-5/6 3xl:-mt-24 "  src="./assets/images/mainpic.png" alt="شیر شکلاتی رامک">
+                            </div>
+                        </div>
+                     </div>
+                   <div class="text-center bg-transparent md:flex  md:bg-cover md:pt-64 lg:pt-0 md:-mt-64 md:px-20 md:items-end lg:h-[800px] 3xl:pb-10 3xl:pr-4 " style="background-image: url(./assets/images/foot_d_b.svg);">
+                    
+                    <div class="3xl:flex">
+                        <div class="lg:flex md:mt-32 3xl:block md:bg-[#562A0F] md:rounded-md lg:bg-transparent">
+
+                        <div>
+                            <img class="px-4 md:w-3/5 3xl:-mt-10" src="./assets/images/text1.svg" alt="">
+                            <p class="font-AnjomanMax_SemiBold text-[#562A0F] my-4 md:text-white md:text-start md:pr-4 3xl:text-2xl">برای ورود به بازی نام و شماره تماس خودت رو <br> وارد کن تا کد تایید برات ارسال بشه </p>
+                            <img class="hidden lg:block 3xl:hidden  w-1/2" src="./assets/images/ring.png" alt="">
+                        </div>
+                        
+                         <div>
+                                    <!-- form -->
+                                <div id="phone_box">
+                                    <div class="px-4 py-2" >
+                                            <div class=" w-full  h-20 "style="direction:ltr" id="name_box">
+                                                <div class=" mt-2 text-right w-[225px] mx-auto 3xl:w-full 3xl:m-0 3xl:flex 3xl:justify-start 3xl:items-center" id="getname"  dir="rtl" >
+                                                        <p class="font-AnjomanMax_SemiBold text-[#562A0F] mt-4 3xl:m-0 pr-4 md:text-white md:w-36"><b>نام و نام خانوادگی</b> </p>
+                                                        <input id="nameinput" type="text"  class="block px-4 h-14 w-[225px] text-center mx-auto 3xl:m-0  bg-cover bg-transparent"  style="background-image: url(./assets/images/input.svg);" />
+                                                </div>
+                                            </div>
+                                            <div class="w-full  h-20 "style="direction:ltr">
+                                                <div class="mt-2 text-right w-[225px] mx-auto 3xl:w-full 3xl:m-0 3xl:flex 3xl:justify-start 3xl:items-center" id="getphone"  dir="rtl">
+                                                        <p class="font-AnjomanMax_SemiBold text-[#562A0F] mt-4 pr-4 md:text-white 3xl:m-0 md:w-36"><b>شماره همراه </b> </p>
+                                                    <input id="getphoneinput" type="tel"  class="block px-4 h-14 w-[225px] mx-auto text-center 3xl:m-0  bg-cover bg-transparent " pattern="09(0[1-2]|1[0-9]|3[0-9]|2[0-1])-?[0-9]{3}-?[0-9]{4}"   style="background-image: url(./assets/images/input.svg);" />
+                                                </div>
+                                            </div>
+                                        </div>
+                                    <div class="mt-6">
+                                    <div class=" submit_btn  h-24 w-full" id="submit_btn">
+                                        <div>
+                                            <!-- send code -->
+                                            <button type="button" onclick="serveRequest('0')" class="bg-cover bg-transparent w-[135px] h-14 md:w-64 md:h-24 3xl:-ml-60" style="background-image: url(./assets/images/btn.png);"> </button>
+                                         
+                                        </div>
+                                    </div>
+                                    </div>
+                                </div>
+                                <!-- END form -->
+                            <!-- verify code -->
+                            <div class="hidden h-auto w-full" id="submit_btn_disabled">
+                                <form class="verify_code my-2" action="#">
+                                        <div class="  flex text-white flex-row-reverse w-60 justify-around mx-auto" id="code_container">
+                                            
+                                            <input class="peer block w-44 px-[38px] tracking-[5px] h-10  purple_input no-spinner text-left  text-xl  border rounded-md  font-bold focus:outline-none focus:ring-2 text-black focus:ring-[#562A0F]"  autocomplete="off" max="999999" type="number" id="getcodeinput" >
+                                            <div class="absolute mt-6 flex justify-center items-center peer-focus:mt-7">
+                                                <span class="w-3 h-1 mr-1  bg-black/40 "></span>
+                                                <span class="w-3 h-1 mr-1  bg-black/40 "></span>
+                                                <span class="w-3 h-1 mr-1  bg-black/40 "></span>
+                                                <span class="w-3 h-1 mr-1  bg-black/40 "></span>
+                                                <span class="w-3 h-1 mr-1  bg-black/40 "></span>
+                                                <span class="w-3 h-1 mr-1  bg-black/40 "></span>
+                                            </div>
+                                        </div>
+                                    </form>
+                                <p class="w-4/5 text-center text-sm rounded-lg mx-auto mt-[3vh] text-red-500 font-AnjomanMax_SemiBold">
+                                    کد برای شما ارسال شد و تا
+                                    <span id="js-timeout">2:00</span>
+                                    دیگر منقضی میشود.</p>
+                            <div class="w-full my-4  3xl:mt-14 flex justify-center items-center">
+                                <button id="submitButton" class="font-AnjomanMax_SemiBold text-[#562A0F] text-lg cursor-pointer rounded-full hover:shadow shadow-lg shadow-black  bg-white w-[125px] h-14  " onclick="serveRequest('1')">شروع بازی</button>
+                            </div>
+                        </div>
+                        <!-- END verify code -->
+                    </div>
+                    
+                    </div>
+                   <!-- footer -->
+                    <div class="relative block md:hidden 3xl:block xl:w-1/2 xl:h-96 h-44" >
+                        <img class="w-full md:hidden" src="./assets/images/white_b.png" alt="">
+                        <img class="hidden  3xl:block absolute bottom-2 xl:scale-150 xl:-right-64 xl:bottom-0" src="./assets/images/ring.png" alt="">
+                        <img class="block absolute bottom-1 3xl:hidden" src="./assets/images/ring2.png" alt="">
+                    </div>
+               </div>
+               </div>
+               </div>
+               </div>
+               <!-- =========PAGE 4 | START========== -->
+               <div class="hidden w-full h-screen" id="game">
+
+
+
+                <div id="leadrBoard" class="hidden w-screen h-w-[370px] h-[800px] bg-cover r" style="background-image: url(./assets/images/leaderpic1.png);">
+
+
+                    <div onclick="lastpage()">
+
+                    </div>
+                </div>
+       
+               </div>
+               <!-- =========PAGE 4 | END========== -->
+               <!-- =========PAGE 5 | START========== -->
+               <div class="hidden w-full min-h-screen mx-auto xxl:w-full bg-[#A68153]"  id="sen5">
+                <div class="min-h-[90%]   pt-4 lg:pt-6" >
+
+                 <div class="w-full h-12 py-2 px-6 3xl:py-0">
+                     <img src="./assets/images/logo.png" class="w-14 lg:w-20 animate-pulse mx-auto float-end 3xl:w-40 3xl:absolute 3xl:right-40 3xl:top-20"  alt="">
+                 </div>
+                 <div class="w-full h-auto flex justify-center -mb-10 3xl:mb-0 3xl:-mt-10 ">
+                    <img class="mx-auto w-40 lg:w-52 3xl:w-64" src="./assets/images/con.png" alt="">
+
+                 </div>
+                 <div class="border-4 w-11/12 h-auto mx-auto border-[#562A0F] 3xl:w-[650px] rounded-xl 3xl:-mt-12 py-10">
+
+
+                 <!--  score board -->
+                 <div class="bg-[#562A0F] w-11/12 mx-auto rounded-xl h-44 lg:h-52 3xl:h-60 text-white">
+                    <div class="mt-6 flex justify-between items-center 3xl:px-10">
+                    
+                        <div class=" font-semibold pr-5">
+                       
+                            <h4  class="text-white text-lg font-bold 3xl:text-2xl">امتیاز شما:   <span  id="score_new" ></span></h4>
+                            <h4  class="text-white text-lg font-bold 3xl:text-2xl mt-4">رتبه شما:    <span id="rank"></span></h4>
+                        </div>
+                        <div>
+                            <img class="w-40 -mt-3 3xl:w-52 3xl:-mt-5" src="./assets/images/milk.png" alt="">
+                        </div>
+                    </div>
+                   
+                 </div>
+
+
+                           <div class="mt-[1vh]  w-10/12 mx-auto  h-auto">
+                            <img class="mx-auto -mt-14 w-28 3xl:w-32" src="./assets/images/ninja2.png" alt="">
+                                <p class="3xl:mx-4 text-sm md:text-base text-white font-AnjomanMax_SemiBold py-2 3xl:p-2  3xl:text-xl text-center ">روی دکمه کپی بزن و لینک بازی و برای دوستات ارسال کن با قبول دعوت هر کدوم شانس دوباره بدست میاری </p>
+
+                               <div class="page2_btn w-full space-y-2 mt-[4vh] flex-col justify-around">
+
+                                   <div class="flex w-full justify-center items-center cursor-pointer "  >
+                                       <p id="copyButton"  class="w-52 h-10 text-lg cursor-pointer font-IRANSans 3xl:w-60" ><img class="w-full" src="./assets/images/btn2.png" alt=""></p>
+                                   </div>
+
+                             </div>
+                       </div>   
+                    </div>
+                    <div class="w-full text-center pt-2">
+                        <p class="font-AnjomanMax_ExBold text-white text-xl text-shadow mx-auto 3xl:text-2xl">رامک دوست بزرگ و کوچک</p>
+
+                    </div>
+               </div>
+               </div>
+
+               <!-- =========PAGE 5 | END========== -->
+           </div>
+        </div>
+
+    </div>
+<script>
+  
+    // lead_url is now defined in javaScript.js
+
+</script>
+
+
+
+<script src="./assets/js/timer.js"></script>
+<script src="./assets/js/javaScript.js?v=47"></script>
+
+<script>
+    function postMsg(msg)
+    {
+        var iFrame = document.getElementById('myIframe')
+        if (iFrame && iFrame.contentWindow) {
+            iFrame.contentWindow.postMessage(msg, '*');
+        }
+    }
+    window.onmessage = function(e) {
+        // Check if the data is JSON
+        if (isValidJSON(e.data)) {
+            var data = JSON.parse(e.data); 
+            if (data.score >= 0){
+
+                endGame(data.score);
+
+            }else if(data.api) {
+                postMsg(1);
+            }
+        } else {
+            // Silently ignore non-JSON data from game iframe
+            // Only log if it's not a frequent message
+            if (typeof e.data !== 'object' || !e.data.type) {
+                // console.log("Received non-JSON data: " + e.data);
+            }
+        }
+    };
+
+    function isValidJSON(data) {
+        try {
+            JSON.parse(data);
+            return true;
+        } catch (e) {
+            return false;
+        }
+    };
+    function lastpage() {
+            document.getElementById("game").style.display = "none";
+            document.getElementById("sen5").style.display = "block";
+            // data.score will be set by the endGame function
+    };
+</script>
+
+
+<script>
+
+    let code = ''
+    const form = document.querySelector('.verify_code')
+    const KEYBOARDS = {
+        backspace: 8,
+        arrowLeft: 37,
+        arrowRight: 39,
+    }
+
+</script>
+
+<script>
+    var audio = document.getElementById("audioPlayer");
+    let status = false;
+
+    function playAudio() {
+        if (audio) {
+            if(status == false){
+                audio.play();
+                status = true;
+            }else{
+                audio.pause();
+                status = false;
+            }
+        }
+    };
+</script>
+
+</body>
+</html>
